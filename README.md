@@ -1,16 +1,13 @@
-# weather_app
+# Flutter Weather App
 
-A new Flutter project.
+A cross-platform weather application built with Flutter. This project provides a user interface for displaying weather data and is configured to run across Android, iOS, Web, macOS, Linux, and Windows from a single codebase.
 
-## Getting Started
+## 📂 Project Structure
 
-This project is a starting point for a Flutter application.
+The application's core logic and UI are organized within the `lib/` directory:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```text
+lib/
+├── HomeView/
+│   └── home.dart      # Main weather dashboard and user interface
+└── main.dart          # Application entry point and root widget
